@@ -20,7 +20,7 @@ public class Main {
     }
 
     public static void printVisocosniy(int a) {
-        boolean Visokosniy = ((a % 4 == 0) && (a % 100 != 0) || (a % 400 == 0));
+        boolean Visokosniy = ((a % 4 == 0) && (a % 100 !=  0) || (a % 400 == 0));
         if (Visokosniy) {
             System.out.println(a + " год является високосным");
         } else
